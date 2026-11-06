@@ -7,7 +7,7 @@ potential malicious activity.
 ## Investigation Evidence Results
 
 ## Wireshark SOC Lab 3
-<img src= "lab3.PNG" width ="450" alt"LAB 3">
+<img src= "lab3.PNG" width = "450" alt "LAB 3">
 
 ## Identify the Attackers IP.
 I have managed to track and find the IP address of the attacker and the opened/closed Ports that were 
