@@ -18,9 +18,14 @@ ports and potential vulnerabilities. If the same IP address appears repeatedly w
 attempting to communicate through multiple ports, it may indicate suspicious activity or a
 possible port-scanning attack. 
 
-Attackers commonly use TCP to establish connections and probe target systems for accessible
-services. Monitoring repeated connection attempts, source IP addresses and TCP traffic
-patterns can help identify potential reconnaissance activities during network traffic analysis.
+## Suggested Solution
+The organisation should implement a properly configured firewall to monitor and restrict
+unauthorised connection attempts to exposed ports. Unnecessary ports should be closed while
+access to essential services should be restricted to authorised IP addresses wherever possible. 
+An Intrusion Detection and Prevention System should also be deployed to detect and alert
+security teams about repeated connection attempts and potential port-scanning activities. 
+Continuous network monitoring and IP address investigation can help SOC analysts identify
+potential attackers and respond to suspicious activities before they exploit vulnerabilities.
 
 ## Wireshark SOC LAB 4
 
