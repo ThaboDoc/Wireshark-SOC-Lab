@@ -7,7 +7,7 @@ potential malicious activity.
 ## Investigation Evidence Results
 
 ## Wireshark SOC Lab 3
-<img src="lab3.PNG" width="300" alt="Lab 3">
+<img src="lab3.PNG" width="300" height="350"  alt="Lab 3">
 
 ## Identify the Attackers IP.
 I have managed to track and find the IP address of the attacker and the opened/closed Ports that were 
@@ -21,7 +21,7 @@ can help identify potential reconnaissance activities during network traffic ana
 
 ## Wireshark SOC Lab 4
 
-<img src="lab4.PNG" width="300" alt="Lab 4">
+<img src="lab4.PNG" width="300" height="350" alt="Lab 4">
 
 ## Follow TCP Stream 1
 
@@ -32,7 +32,7 @@ This highlights the importance of using HTTPS with TLS encryption to protect dat
 
 ## Wireshark SOC Lab 5
 
-<img src="lab5.PNG" width="300" height="150" alt="Lab 5">
+<img src="lab5.PNG" width="300" height="350" alt="Lab 5">
 ## Follow TCP Stream 2
 
 In this lab, I managed to identify hidden information embedded within a file. 
@@ -42,10 +42,10 @@ by inspecting the HTML source code. This demonstrates how hidden information can
 discovered through basic file and source code analysis.
 
 ## Wireshark SOC Lab 6
-<img src="lab6.PNG" width="300" alt="Lab 6">
+<img src="lab6.PNG" width="300" height="350" alt="Lab 6">
 
 ## Wireshark SOC Lab 7
-<img src="lab7.PNG" width="300" alt="Lab 7">
+<img src="lab7.PNG" width="300" height="350" alt="Lab 7">
 
 ## Overall results and summary
-<img src="SOC_Labs.png" width="300" alt="SOC_Labs">
+<img src="SOC_Labs.png" width="300" height="350" alt="SOC_Labs">
