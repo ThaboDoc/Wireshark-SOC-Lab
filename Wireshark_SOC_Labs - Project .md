@@ -49,11 +49,22 @@ ensuring that communication between users and web servers remains confidential a
 
 In this lab, I managed to identify hidden information embedded within a file. 
 I learned that information can be concealed in HTML files using comments
-such as "<!-- Hidden -->". 
+inside the file. 
 
-which are not displayed on the webpage but can still be viewed by inspecting the HTML 
-source code. This demonstrates how hidden information can be discovered through basic file 
+The comments as a message are not displayed on the webpage but can still be viewed by
+inspecting the HTML source code. 
+This demonstrates how hidden information can be discovered through basic file 
 and source code analysis.
+
+Information that is hidden from the webpage is not necessarily secure. 
+Anything delivered tothe browser should be treated as potentially accessible to the user.
+
+## Suggested Solution
+
+Developers must avoid storing passwords, usernames, confidential messages, API keys or
+internal information within HTML comments or client-side code.
+Regular source code reviews, security assessments and secure coding practices should be
+implemented to identify and remove hidden information before websites are deployed.
 
 ## Wireshark SOC LAB 6
 <img src="lab6.PNG" width="350" height="350" alt="Lab 6">
@@ -73,6 +84,22 @@ and unauthorised access.
 <img src="lab7.PNG" width="350" height="350" alt="Lab 7">
 
 ## Brute Force Catch
+During this investigation I used Wireshark's Protocol Hierarchy feature under Statistics 
+to identify FTP traffic within the captured network packets. I ascertained multiple failed FTP 
+login attempts involving repeated password guesses against the same user account
+followed by a successful login. 
+
+This behaviour is consistent with a brute-force attack where an attacker systematically attempts different passwords until the correct credentials are discovered.
+
+Identifying suspicious login behaviour is an important skills for SOC analysts when investigating possible credential compromises.
+
+## Suggested Solution
+
+The organisation should disable standard FTP and replace it with secure alternatives such as
+SFTP or FTPS. Account lockout policies such as multi-factor authentication (MFA).
+login attempt monitoring should be implemented to reduce the risk of brute-force attacks. An
+IDS/IPS solution can help detect repeated authentication failures and alert the SOC team to
+suspicious login activity.
 
 ## Wireshark SOC LAB 8
 <img src="lab8.PNG" width="350" height="350" alt="Lab 8">
