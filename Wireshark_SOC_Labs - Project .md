@@ -69,9 +69,40 @@ and unauthorised access.
 ## Wireshark SOC LAB 8
 <img src="lab8.PNG" width="350" height="350" alt="Lab 8">
 
+## VOIP Call replay
+
+I analysed VoIP network traffic using Wireshark and identified the protocols responsible for
+establishing and carrying a phone call. I discovered that Session Initiation Protocol was used
+to initiate the call while Real-time Transport Protocol carried the voice data through
+multiple small packets transmitted approximately every 60 milliseconds.
+By inspecting the SIP INVITE message I have identified extension number 101 as the caller.
+
+Voice conversations can potentially be intercepted and replayed when voice packets are
+transmitted without encryption. This creates a confidentiality risk because attackers
+monitoring network traffic may be able to capture and listen to private conversations.
+
+## Key findings:
+
+Call setup protocol : SIP.
+Voice transmission protocol : RTP.
+Calling extension : 101.
+
+Security risk: Unencrypted voice packets can potentially be captured and replayed.
+
+## Recommended Solution
+
+The company should implement Secure Real-time Transport Protocol (SRTP) to encrypt voice 
+packets and protect conversations from interception. SIP signalling should be protected using
+TLS to secure call setup messages. These security measures help maintain the confidentiality
+and integrity of VoIP communications and reduce the risk of unauthorised access to private
+conversations.
+
+VoIP communication can expose sensitive conversations when encryption is not implemented.
+Using SRTP for voice traffic and TLS for SIP signalling is essential for securing business
+phone communications and protecting confidential information.
 
 ## Overall results and summary
-<img src="SOC_Labs.png" width="450" height="450" alt="SOC_Labs">
+<img src="SOC_Labs.png" width="500" height="450" alt="SOC_Labs">
 
 ## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
