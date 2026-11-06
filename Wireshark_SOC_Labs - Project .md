@@ -21,9 +21,19 @@ can help identify potential reconnaissance activities during network traffic ana
 
 ## Wireshark SOC Lab 4
 
-<img src="lab4.PNG" width="300" alt="Lab 3">
+<img src="lab4.PNG" width="300" alt="Lab 4">
 
-## Follow TCP Stream
+## Follow TCP Stream 1
+
+I learned that conversations and data transmitted over HTTP are not encrypted,
+which means sensitive information such as usernames, passwords and private messages 
+can potentially be intercepted and exposed by attackers.
+This highlights the importance of using HTTPS with TLS encryption to protect data in transit ensuring that communication between users and web servers remains confidential and secure.
+
+## Wireshark SOC Lab 5
+
+<img src="lab5.PNG" width="300" height="150" alt="Lab 5">
+## Follow TCP Stream 2
 
 In this lab, I managed to identify hidden information embedded within a file. 
 I learned that information can be concealed in HTML files using comments
@@ -31,15 +41,11 @@ such as <!-- Hidden -->, which are not displayed on the webpage but can still be
 by inspecting the HTML source code. This demonstrates how hidden information can be 
 discovered through basic file and source code analysis.
 
-## Wireshark SOC Lab 5
-
-<img src="lab5.PNG" width="300" alt="Lab 3">
-
 ## Wireshark SOC Lab 6
-<img src="lab6.PNG" width="300" alt="Lab 3">
+<img src="lab6.PNG" width="300" alt="Lab 6">
 
 ## Wireshark SOC Lab 7
-<img src="lab7.PNG" width="300" alt="Lab 3">
+<img src="lab7.PNG" width="300" alt="Lab 7">
 
 ## Overall results and summary
-<img src="SOC_Labs.PNG" width="300" alt="Lab 3">
+<img src="SOC_Labs.png" width="300" alt="SOC_Labs">
