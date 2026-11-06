@@ -97,7 +97,7 @@ Voice transmission protocol  : RTP.
 
 Calling extension            : 101.
 
-Security risk: Unencrypted voice packets can potentially be captured and replayed.
+Security risk in here is that unencrypted voice packets can potentially be captured and replayed.
 
 ## Recommended Solution
 
@@ -112,7 +112,7 @@ Using SRTP for voice traffic and TLS for SIP signalling is essential for securin
 phone communications and protecting confidential information.
 
 ## Overall results and summary
-<img src="SOC_Labs.png" width="500" height="450" alt="SOC_Labs">
+<img src="SOC_Labs.png" width="550" height="450" alt="SOC_Labs">
 
 ## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
