@@ -1,6 +1,6 @@
 ## Overview
 
-This document a practical SOC investigation using Wireshark to capture and analyse network traffic.
+This project document a practical SOC investigation using Wireshark to capture and analyze network traffic.
 The objective is to identify unusual network behaviour, investigate suspicious connections and detect 
 potential malicious activity.
 
