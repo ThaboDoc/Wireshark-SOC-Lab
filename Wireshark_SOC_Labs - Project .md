@@ -70,18 +70,23 @@ and unauthorised access.
 <img src="lab8.PNG" width="300" height="350" alt="Lab 8">
 
 ## Overall results and summary
-<img src="SOC_Labs.png" width="300" height="350" alt="SOC_Labs">
+<img src="SOC_Labs.png" width="450" height="450" alt="SOC_Labs">
 
-This is the summarized report of the results for my LAB Projects
-LAB 3 =  Identify the Attackers IP :  90/100 Outstanding
+## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
-lab 4 = Follow TCP Stream Part 1   :  90/100 Outstanding
+LAB 3 = Identify the Attacker's IP       : <span style="color:orange">90/100 – Outstanding</span>
 
-lab 5 = Follow TCP Stream Part 2   :  100/100 outstanding
+LAB 4 = Follow TCP Stream Part 1         : <span style="color:orange">90/100 – Outstanding</span>
 
-lab 6 = HTTP plain text credentials:  90/100 Outstanding
+LAB 5 = Follow TCP Stream Part 2         : <span style="color:green">100/100 – Outstanding</span>
 
-lab 7 = Brute force catch          :  100/100 outstanding
+LAB 6 = HTTP Plain Text Credentials      : <span style="color:orange">90/100 – Outstanding</span>
 
-Lab 8 = VoIP call replay           : 90/100 Outstanding
+LAB 7 = Brute Force Catch                : <span style="color:green">100/100 – Outstanding</span>
+
+LAB 8 = VoIP Call Replay                 : <span style="color:orange">90/100 – Outstanding</span>
+
+
+
+## AVERAGE SCORE: 93.33/100 – OUTSTANDING
 
