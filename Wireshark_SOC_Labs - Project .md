@@ -7,7 +7,7 @@ potential malicious activity.
 ## Investigation Evidence Results
 
 ## Wireshark SOC LAB 3
-<img src="lab3.PNG" width="300" height="300"  alt="Lab 3">
+<img src="lab3.PNG" width="350" height="300"  alt="Lab 3">
 
 ## Identify the Attackers IP.
 I have managed to track and find the IP address of the attacker and the opened/closed Ports that were 
@@ -24,7 +24,7 @@ patterns can help identify potential reconnaissance activities during network tr
 
 ## Wireshark SOC LAB 4
 
-<img src="lab4.PNG" width="300" height="300" alt="Lab 4">
+<img src="lab4.PNG" width="350" height="300" alt="Lab 4">
 
 ## Follow TCP Stream Part 1
 
@@ -36,7 +36,7 @@ ensuring that communication between users and web servers remains confidential a
 
 ## Wireshark SOC Lab 5
 
-<img src="lab5.PNG" width="300" height="350" alt="Lab 5">
+<img src="lab5.PNG" width="350" height="350" alt="Lab 5">
 
 ## Follow TCP Stream Part 2
 
@@ -48,7 +48,7 @@ source code. This demonstrates how hidden information can be discovered through 
 and source code analysis.
 
 ## Wireshark SOC LAB 6
-<img src="lab6.PNG" width="300" height="350" alt="Lab 6">
+<img src="lab6.PNG" width="350" height="350" alt="Lab 6">
 
 ## HTTP plain text credentials
 
@@ -62,29 +62,30 @@ This helps maintain data confidentiality and protect users against credential th
 and unauthorised access.
 
 ## Wireshark SOC LAB 7
-<img src="lab7.PNG" width="300" height="350" alt="Lab 7">
+<img src="lab7.PNG" width="350" height="350" alt="Lab 7">
 
-## Brute force catch
+## Brute Force Catch
 
 ## Wireshark SOC LAB 8
-<img src="lab8.PNG" width="300" height="350" alt="Lab 8">
+<img src="lab8.PNG" width="350" height="350" alt="Lab 8">
+
 
 ## Overall results and summary
 <img src="SOC_Labs.png" width="450" height="450" alt="SOC_Labs">
 
 ## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
-LAB 3 = Identify the Attacker's IP       : <span style="color:orange">90/100 – Outstanding</span>
+LAB 3 = Identify the Attacker's IP        : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 4 = Follow TCP Stream Part 1         : <span style="color:orange">90/100 – Outstanding</span>
+LAB 4 = Follow TCP Stream Part 1          : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 5 = Follow TCP Stream Part 2         : <span style="color:green">100/100 – Outstanding</span>
+LAB 5 = Follow TCP Stream Part 2          : <span style="color:green">100/100 – Outstanding</span>
 
-LAB 6 = HTTP Plain Text Credentials      : <span style="color:orange">90/100 – Outstanding</span>
+LAB 6 = HTTP Plain Text Credentials       : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 7 = Brute Force Catch                : <span style="color:green">100/100 – Outstanding</span>
+LAB 7 = Brute Force Catch                 : <span style="color:green">100/100 – Outstanding</span>
 
-LAB 8 = VoIP Call Replay                 : <span style="color:orange">90/100 – Outstanding</span>
+LAB 8 = VoIP Call Replay                  : <span style="color:orange">90/100 – Outstanding</span>
 
 
 
