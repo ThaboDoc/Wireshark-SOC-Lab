@@ -143,7 +143,7 @@ phone communications and protecting confidential information.
 
 ## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
-LAB 3 = Identify the Attacker's IP        : <span style="color:orange">90/100 – Outstanding</span>
+LAB 3 = Identify the Attacker's IP     </> <br>   : <span style="color:orange">90/100 – Outstanding</span>
 
 LAB 4 = Follow TCP Stream Part 1          : <span style="color:orange">90/100 – Outstanding</span>
 
