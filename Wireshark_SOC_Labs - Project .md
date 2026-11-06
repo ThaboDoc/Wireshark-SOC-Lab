@@ -7,7 +7,7 @@ potential malicious activity.
 ## Investigation Evidence Results
 
 ## Wireshark SOC Lab 3
-<img src="lab3.PNG" width="450" alt="Lab 3">
+<img src="lab3.PNG" width="300" alt="Lab 3">
 
 ## Identify the Attackers IP.
 I have managed to track and find the IP address of the attacker and the opened/closed Ports that were 
@@ -29,4 +29,4 @@ by inspecting the HTML source code. This demonstrates how hidden information can
 discovered through basic file and source code analysis.
 
 ## Wireshark SOC Lab 4
-<img src="lab3.PNG" width="400" alt="Lab 3">
+<img src="lab4.PNG" width="300" alt="Lab 3">
