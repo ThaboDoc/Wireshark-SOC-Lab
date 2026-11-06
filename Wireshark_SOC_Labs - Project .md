@@ -147,7 +147,7 @@ LAB 3 = Identify the Attacker's IP         : <span style="color:orange">  90/100
 
 LAB 4 = Follow TCP Stream Part 1          : <span style="color:orange">  90/100 – Outstanding</span>
 
-LAB 5 = Follow TCP Stream Part 2      <br>     : <span style="color:green">  100/100 – Outstanding</span>
+LAB 5 = Follow TCP Stream Part 2         : <span style="color:green">  100/100 – Outstanding</span>
 
 LAB 6 = HTTP Plain Text Credentials       : <span style="color:orange">  90/100 – Outstanding</span>
 
