@@ -73,21 +73,15 @@ and unauthorised access.
 <img src="SOC_Labs.png" width="300" height="350" alt="SOC_Labs">
 
 This is the summarized report of the results for my LAB Projects
-LAB 3 =  Identify the Attackers IP :   
-90/100 Outstanding
+LAB 3 =  Identify the Attackers IP :  90/100 Outstanding
 
-lab 4 = Follow TCP Stream Part 1   :   
-90/100 Outstanding
+lab 4 = Follow TCP Stream Part 1   :  90/100 Outstanding
 
-lab 5 = Follow TCP Stream Part 2   :   
-100/100 outstanding
+lab 5 = Follow TCP Stream Part 2   :  100/100 outstanding
 
-lab 6 = HTTP plain text credentials:   
-90/100 Outstanding
+lab 6 = HTTP plain text credentials:  90/100 Outstanding
 
-lab 7 = Brute force catch          :   
-100/100 outstanding
+lab 7 = Brute force catch          :  100/100 outstanding
 
-Lab 8 = VoIP call replay           :  
-90/100 Outstanding
+Lab 8 = VoIP call replay           : 90/100 Outstanding
 
