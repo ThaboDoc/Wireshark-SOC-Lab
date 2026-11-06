@@ -143,17 +143,17 @@ phone communications and protecting confidential information.
 
 ## <h2><u>This is the summarized report of the results for my LAB Projects</u></h2>
 
-LAB 3 = Identify the Attacker's IP     </> <br>   : <span style="color:orange">90/100 – Outstanding</span>
+LAB 3 = Identify the Attacker's IP      <br>   : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 4 = Follow TCP Stream Part 1          : <span style="color:orange">90/100 – Outstanding</span>
+LAB 4 = Follow TCP Stream Part 1       <br>    : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 5 = Follow TCP Stream Part 2          : <span style="color:green">100/100 – Outstanding</span>
+LAB 5 = Follow TCP Stream Part 2      <br>     : <span style="color:green">100/100 – Outstanding</span>
 
-LAB 6 = HTTP Plain Text Credentials       : <span style="color:orange">90/100 – Outstanding</span>
+LAB 6 = HTTP Plain Text Credentials     <br>   : <span style="color:orange">90/100 – Outstanding</span>
 
-LAB 7 = Brute Force Catch                 : <span style="color:green">100/100 – Outstanding</span>
+LAB 7 = Brute Force Catch           <br>       : <span style="color:green">100/100 – Outstanding</span>
 
-LAB 8 = VoIP Call Replay                  : <span style="color:orange">90/100 – Outstanding</span>
+LAB 8 = VoIP Call Replay          <br>         : <span style="color:orange">90/100 – Outstanding</span>
 
 
 
