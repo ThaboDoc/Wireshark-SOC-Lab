@@ -20,6 +20,9 @@ and probe target systems for accessible services. Monitoring repeated connection
 can help identify potential reconnaissance activities during network traffic analysis.
 
 ## Wireshark SOC Lab 4
+
+<img src="lab4.PNG" width="300" alt="Lab 3">
+
 ## Follow TCP Stream
 
 In this lab, I managed to identify hidden information embedded within a file. 
@@ -28,5 +31,15 @@ such as <!-- Hidden -->, which are not displayed on the webpage but can still be
 by inspecting the HTML source code. This demonstrates how hidden information can be 
 discovered through basic file and source code analysis.
 
-## Wireshark SOC Lab 4
-<img src="lab4.PNG" width="300" alt="Lab 3">
+## Wireshark SOC Lab 5
+
+<img src="lab5.PNG" width="300" alt="Lab 3">
+
+## Wireshark SOC Lab 6
+<img src="lab6.PNG" width="300" alt="Lab 3">
+
+## Wireshark SOC Lab 7
+<img src="lab7.PNG" width="300" alt="Lab 3">
+
+## Overall results and summary
+<img src="SOC_Labs.PNG" width="300" alt="Lab 3">
