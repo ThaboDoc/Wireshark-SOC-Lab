@@ -92,7 +92,9 @@ monitoring network traffic may be able to capture and listen to private conversa
 ## Key findings:
 
 Call setup protocol          : SIP.
+
 Voice transmission protocol  : RTP.
+
 Calling extension            : 101.
 
 Security risk: Unencrypted voice packets can potentially be captured and replayed.
