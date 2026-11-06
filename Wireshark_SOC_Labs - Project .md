@@ -18,3 +18,15 @@ If the same IP address appears repeatedly while attempting to communicate throug
 it may indicate suspicious activity or a possible port-scanning attack. Attackers commonly use TCP to establish connections 
 and probe target systems for accessible services. Monitoring repeated connection attempts, source IP addresses and TCP traffic patterns 
 can help identify potential reconnaissance activities during network traffic analysis.
+
+## Wireshark SOC Lab 4
+## Follow TCP Stream
+
+In this lab, I managed to identify hidden information embedded within a file. 
+I learned that information can be concealed in HTML files using comments
+such as <!-- Hidden -->, which are not displayed on the webpage but can still be viewed
+by inspecting the HTML source code. This demonstrates how hidden information can be 
+discovered through basic file and source code analysis.
+
+## Wireshark SOC Lab 4
+<img src="lab3.PNG" width="450" alt="Lab 3">
