@@ -22,6 +22,7 @@ possible port-scanning attack.
 The organisation should implement a properly configured firewall to monitor and restrict
 unauthorised connection attempts to exposed ports. Unnecessary ports should be closed while
 access to essential services should be restricted to authorised IP addresses wherever possible. 
+
 An Intrusion Detection and Prevention System should also be deployed to detect and alert
 security teams about repeated connection attempts and potential port-scanning activities. 
 Continuous network monitoring and IP address investigation can help SOC analysts identify
@@ -36,6 +37,7 @@ potential attackers and respond to suspicious activities before they exploit vul
 I learned that conversations and data transmitted over HTTP are not encrypted,
 which means sensitive information such as usernames, passwords and private messages 
 can potentially be intercepted and exposed by attackers.
+
 This highlights the importance of using HTTPS with TLS encryption to protect data in transit
 ensuring that communication between users and web servers remains confidential and secure.
 
@@ -48,6 +50,7 @@ ensuring that communication between users and web servers remains confidential a
 In this lab, I managed to identify hidden information embedded within a file. 
 I learned that information can be concealed in HTML files using comments
 such as "<!-- Hidden -->". 
+
 which are not displayed on the webpage but can still be viewed by inspecting the HTML 
 source code. This demonstrates how hidden information can be discovered through basic file 
 and source code analysis.
@@ -80,17 +83,17 @@ I analysed VoIP network traffic using Wireshark and identified the protocols res
 establishing and carrying a phone call. I discovered that Session Initiation Protocol was used
 to initiate the call while Real-time Transport Protocol carried the voice data through
 multiple small packets transmitted approximately every 60 milliseconds.
-By inspecting the SIP INVITE message I have identified extension number 101 as the caller.
 
+By inspecting the SIP INVITE message I have identified extension number 101 as the caller.
 Voice conversations can potentially be intercepted and replayed when voice packets are
 transmitted without encryption. This creates a confidentiality risk because attackers
 monitoring network traffic may be able to capture and listen to private conversations.
 
 ## Key findings:
 
-Call setup protocol : SIP.
-Voice transmission protocol : RTP.
-Calling extension : 101.
+Call setup protocol          : SIP.
+Voice transmission protocol  : RTP.
+Calling extension            : 101.
 
 Security risk: Unencrypted voice packets can potentially be captured and replayed.
 
